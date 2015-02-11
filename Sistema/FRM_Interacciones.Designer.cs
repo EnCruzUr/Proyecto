@@ -73,6 +73,7 @@
             this.Controls.Add(this.BRR_Superior);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FRM_Interacciones";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FRM_Interacciones";
             this.BRR_Superior.ResumeLayout(false);
             this.BRR_Superior.PerformLayout();

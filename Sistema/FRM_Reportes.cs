@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Sistema
 {
-    public partial class FRM_Agregar : Form
+    public partial class FRM_Reportes : Form
     {
-        public FRM_Agregar()
+        public FRM_Reportes()
         {
             InitializeComponent();
-        }
-
-        private void radioButton2_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

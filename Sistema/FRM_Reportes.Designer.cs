@@ -1,6 +1,6 @@
 ﻿namespace Sistema
 {
-    partial class FRM_Edicion
+    partial class FRM_Reportes
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FRM_Edicion));
-            this.BRR_Superior = new System.Windows.Forms.ToolStrip();
-            this.BTM_Regresar = new System.Windows.Forms.ToolStripButton();
-            this.BTN_Salir = new System.Windows.Forms.ToolStripButton();
-            this.PAN_Botones = new System.Windows.Forms.Panel();
-            this.BTN_Cancelar = new System.Windows.Forms.Button();
-            this.BTN_Agregar = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FRM_Reportes));
             this.PAN_Ubi2 = new System.Windows.Forms.Panel();
             this.TXT_Twitter = new System.Windows.Forms.TextBox();
             this.TXT_Face = new System.Windows.Forms.TextBox();
@@ -89,74 +83,19 @@
             this.LBL_Buscarpor = new System.Windows.Forms.ToolStripLabel();
             this.CMB_Busqueda = new System.Windows.Forms.ToolStripComboBox();
             this.TXT_Busqueda = new System.Windows.Forms.ToolStripTextBox();
+            this.BTN_Buscar = new System.Windows.Forms.ToolStripButton();
             this.LBL_Resultados = new System.Windows.Forms.ToolStripLabel();
             this.CMB_Resultados = new System.Windows.Forms.ToolStripComboBox();
-            this.BTN_Buscar = new System.Windows.Forms.ToolStripButton();
-            this.BRR_Superior.SuspendLayout();
-            this.PAN_Botones.SuspendLayout();
+            this.BRR_Superior = new System.Windows.Forms.ToolStrip();
+            this.BTM_Regresar = new System.Windows.Forms.ToolStripButton();
+            this.BTN_Salir = new System.Windows.Forms.ToolStripButton();
             this.PAN_Ubi2.SuspendLayout();
             this.PAN_Dat_Elect.SuspendLayout();
             this.PAN_Ubi1.SuspendLayout();
             this.PAN_Dat_Person.SuspendLayout();
             this.BRR_Busqueda.SuspendLayout();
+            this.BRR_Superior.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // BRR_Superior
-            // 
-            this.BRR_Superior.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.BTM_Regresar,
-            this.BTN_Salir});
-            this.BRR_Superior.Location = new System.Drawing.Point(0, 0);
-            this.BRR_Superior.Name = "BRR_Superior";
-            this.BRR_Superior.Size = new System.Drawing.Size(595, 25);
-            this.BRR_Superior.TabIndex = 2;
-            this.BRR_Superior.Text = "toolStrip1";
-            // 
-            // BTM_Regresar
-            // 
-            this.BTM_Regresar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.BTM_Regresar.Image = ((System.Drawing.Image)(resources.GetObject("BTM_Regresar.Image")));
-            this.BTM_Regresar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.BTM_Regresar.Name = "BTM_Regresar";
-            this.BTM_Regresar.Size = new System.Drawing.Size(56, 22);
-            this.BTM_Regresar.Text = "Regresar";
-            // 
-            // BTN_Salir
-            // 
-            this.BTN_Salir.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.BTN_Salir.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.BTN_Salir.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Salir.Image")));
-            this.BTN_Salir.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.BTN_Salir.Name = "BTN_Salir";
-            this.BTN_Salir.Size = new System.Drawing.Size(33, 22);
-            this.BTN_Salir.Text = "Salir";
-            // 
-            // PAN_Botones
-            // 
-            this.PAN_Botones.Controls.Add(this.BTN_Cancelar);
-            this.PAN_Botones.Controls.Add(this.BTN_Agregar);
-            this.PAN_Botones.Location = new System.Drawing.Point(405, 428);
-            this.PAN_Botones.Name = "PAN_Botones";
-            this.PAN_Botones.Size = new System.Drawing.Size(177, 42);
-            this.PAN_Botones.TabIndex = 73;
-            // 
-            // BTN_Cancelar
-            // 
-            this.BTN_Cancelar.Location = new System.Drawing.Point(88, 8);
-            this.BTN_Cancelar.Name = "BTN_Cancelar";
-            this.BTN_Cancelar.Size = new System.Drawing.Size(75, 23);
-            this.BTN_Cancelar.TabIndex = 67;
-            this.BTN_Cancelar.Text = "Cancelar";
-            this.BTN_Cancelar.UseVisualStyleBackColor = true;
-            // 
-            // BTN_Agregar
-            // 
-            this.BTN_Agregar.Location = new System.Drawing.Point(7, 8);
-            this.BTN_Agregar.Name = "BTN_Agregar";
-            this.BTN_Agregar.Size = new System.Drawing.Size(75, 23);
-            this.BTN_Agregar.TabIndex = 66;
-            this.BTN_Agregar.Text = "Agregar";
-            this.BTN_Agregar.UseVisualStyleBackColor = true;
             // 
             // PAN_Ubi2
             // 
@@ -172,10 +111,10 @@
             this.PAN_Ubi2.Controls.Add(this.LBL_TelCel);
             this.PAN_Ubi2.Controls.Add(this.LBL_TelCasa);
             this.PAN_Ubi2.Controls.Add(this.LBL_Entre);
-            this.PAN_Ubi2.Location = new System.Drawing.Point(294, 51);
+            this.PAN_Ubi2.Location = new System.Drawing.Point(294, 56);
             this.PAN_Ubi2.Name = "PAN_Ubi2";
             this.PAN_Ubi2.Size = new System.Drawing.Size(289, 182);
-            this.PAN_Ubi2.TabIndex = 72;
+            this.PAN_Ubi2.TabIndex = 76;
             // 
             // TXT_Twitter
             // 
@@ -284,10 +223,10 @@
             this.PAN_Dat_Elect.Controls.Add(this.LBL_SecElect);
             this.PAN_Dat_Elect.Controls.Add(this.LBL_CveElect);
             this.PAN_Dat_Elect.Controls.Add(this.LBL_DirIFE);
-            this.PAN_Dat_Elect.Location = new System.Drawing.Point(294, 262);
+            this.PAN_Dat_Elect.Location = new System.Drawing.Point(294, 267);
             this.PAN_Dat_Elect.Name = "PAN_Dat_Elect";
             this.PAN_Dat_Elect.Size = new System.Drawing.Size(289, 156);
-            this.PAN_Dat_Elect.TabIndex = 71;
+            this.PAN_Dat_Elect.TabIndex = 75;
             // 
             // CKB_Mismo
             // 
@@ -375,10 +314,10 @@
             this.PAN_Ubi1.Controls.Add(this.LBL_Calle);
             this.PAN_Ubi1.Controls.Add(this.LBL_Direccion);
             this.PAN_Ubi1.Controls.Add(this.LBL_Zona);
-            this.PAN_Ubi1.Location = new System.Drawing.Point(12, 262);
+            this.PAN_Ubi1.Location = new System.Drawing.Point(12, 267);
             this.PAN_Ubi1.Name = "PAN_Ubi1";
             this.PAN_Ubi1.Size = new System.Drawing.Size(269, 156);
-            this.PAN_Ubi1.TabIndex = 70;
+            this.PAN_Ubi1.TabIndex = 74;
             // 
             // CMB_Zona
             // 
@@ -478,10 +417,10 @@
             this.PAN_Dat_Person.Controls.Add(this.LBL_Nombre);
             this.PAN_Dat_Person.Controls.Add(this.LBL_Ap_Mat);
             this.PAN_Dat_Person.Controls.Add(this.LBL_Ap_Pat);
-            this.PAN_Dat_Person.Location = new System.Drawing.Point(12, 50);
+            this.PAN_Dat_Person.Location = new System.Drawing.Point(12, 55);
             this.PAN_Dat_Person.Name = "PAN_Dat_Person";
             this.PAN_Dat_Person.Size = new System.Drawing.Size(269, 208);
-            this.PAN_Dat_Person.TabIndex = 69;
+            this.PAN_Dat_Person.TabIndex = 73;
             // 
             // CMB_EdoCiv
             // 
@@ -629,7 +568,7 @@
             this.BRR_Busqueda.Location = new System.Drawing.Point(0, 25);
             this.BRR_Busqueda.Name = "BRR_Busqueda";
             this.BRR_Busqueda.Size = new System.Drawing.Size(595, 25);
-            this.BRR_Busqueda.TabIndex = 74;
+            this.BRR_Busqueda.TabIndex = 78;
             this.BRR_Busqueda.Text = "toolStrip1";
             // 
             // LBL_Buscarpor
@@ -648,6 +587,15 @@
             this.TXT_Busqueda.Name = "TXT_Busqueda";
             this.TXT_Busqueda.Size = new System.Drawing.Size(100, 25);
             // 
+            // BTN_Buscar
+            // 
+            this.BTN_Buscar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.BTN_Buscar.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Buscar.Image")));
+            this.BTN_Buscar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.BTN_Buscar.Name = "BTN_Buscar";
+            this.BTN_Buscar.Size = new System.Drawing.Size(46, 22);
+            this.BTN_Buscar.Text = "Buscar";
+            // 
             // LBL_Resultados
             // 
             this.LBL_Resultados.Name = "LBL_Resultados";
@@ -659,34 +607,51 @@
             this.CMB_Resultados.Name = "CMB_Resultados";
             this.CMB_Resultados.Size = new System.Drawing.Size(121, 25);
             // 
-            // BTN_Buscar
+            // BRR_Superior
             // 
-            this.BTN_Buscar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.BTN_Buscar.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Buscar.Image")));
-            this.BTN_Buscar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.BTN_Buscar.Name = "BTN_Buscar";
-            this.BTN_Buscar.Size = new System.Drawing.Size(46, 22);
-            this.BTN_Buscar.Text = "Buscar";
+            this.BRR_Superior.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.BTM_Regresar,
+            this.BTN_Salir});
+            this.BRR_Superior.Location = new System.Drawing.Point(0, 0);
+            this.BRR_Superior.Name = "BRR_Superior";
+            this.BRR_Superior.Size = new System.Drawing.Size(595, 25);
+            this.BRR_Superior.TabIndex = 77;
+            this.BRR_Superior.Text = "toolStrip1";
             // 
-            // FRM_Edicion
+            // BTM_Regresar
+            // 
+            this.BTM_Regresar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.BTM_Regresar.Image = ((System.Drawing.Image)(resources.GetObject("BTM_Regresar.Image")));
+            this.BTM_Regresar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.BTM_Regresar.Name = "BTM_Regresar";
+            this.BTM_Regresar.Size = new System.Drawing.Size(56, 22);
+            this.BTM_Regresar.Text = "Regresar";
+            // 
+            // BTN_Salir
+            // 
+            this.BTN_Salir.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.BTN_Salir.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.BTN_Salir.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Salir.Image")));
+            this.BTN_Salir.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.BTN_Salir.Name = "BTN_Salir";
+            this.BTN_Salir.Size = new System.Drawing.Size(33, 22);
+            this.BTN_Salir.Text = "Salir";
+            // 
+            // FRM_Reportes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(595, 479);
             this.Controls.Add(this.BRR_Busqueda);
-            this.Controls.Add(this.PAN_Botones);
+            this.Controls.Add(this.BRR_Superior);
             this.Controls.Add(this.PAN_Ubi2);
             this.Controls.Add(this.PAN_Dat_Elect);
             this.Controls.Add(this.PAN_Ubi1);
             this.Controls.Add(this.PAN_Dat_Person);
-            this.Controls.Add(this.BRR_Superior);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "FRM_Edicion";
+            this.Name = "FRM_Reportes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FRM_Edicion";
-            this.BRR_Superior.ResumeLayout(false);
-            this.BRR_Superior.PerformLayout();
-            this.PAN_Botones.ResumeLayout(false);
+            this.Text = "FRM_Reportes";
             this.PAN_Ubi2.ResumeLayout(false);
             this.PAN_Ubi2.PerformLayout();
             this.PAN_Dat_Elect.ResumeLayout(false);
@@ -697,6 +662,8 @@
             this.PAN_Dat_Person.PerformLayout();
             this.BRR_Busqueda.ResumeLayout(false);
             this.BRR_Busqueda.PerformLayout();
+            this.BRR_Superior.ResumeLayout(false);
+            this.BRR_Superior.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -704,12 +671,6 @@
 
         #endregion
 
-        private System.Windows.Forms.ToolStrip BRR_Superior;
-        private System.Windows.Forms.ToolStripButton BTM_Regresar;
-        private System.Windows.Forms.ToolStripButton BTN_Salir;
-        private System.Windows.Forms.Panel PAN_Botones;
-        private System.Windows.Forms.Button BTN_Cancelar;
-        private System.Windows.Forms.Button BTN_Agregar;
         private System.Windows.Forms.Panel PAN_Ubi2;
         private System.Windows.Forms.TextBox TXT_Twitter;
         private System.Windows.Forms.TextBox TXT_Face;
@@ -764,10 +725,11 @@
         private System.Windows.Forms.ToolStripLabel LBL_Buscarpor;
         private System.Windows.Forms.ToolStripComboBox CMB_Busqueda;
         private System.Windows.Forms.ToolStripTextBox TXT_Busqueda;
+        private System.Windows.Forms.ToolStripButton BTN_Buscar;
         private System.Windows.Forms.ToolStripLabel LBL_Resultados;
         private System.Windows.Forms.ToolStripComboBox CMB_Resultados;
-        private System.Windows.Forms.ToolStripButton BTN_Buscar;
-
-
+        private System.Windows.Forms.ToolStrip BRR_Superior;
+        private System.Windows.Forms.ToolStripButton BTM_Regresar;
+        private System.Windows.Forms.ToolStripButton BTN_Salir;
     }
 }

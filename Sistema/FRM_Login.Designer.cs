@@ -111,6 +111,7 @@
             this.Controls.Add(this.PAN_Login);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FRM_Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.PAN_Login.ResumeLayout(false);
             this.PAN_Login.PerformLayout();

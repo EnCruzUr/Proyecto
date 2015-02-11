@@ -44,12 +44,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FRM_Agregar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FRM_Agregar.Designer.cs">
-      <DependentUpon>FRM_Agregar.cs</DependentUpon>
-    </Compile>
     <Compile Include="FRM_Edicion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +68,12 @@
     <Compile Include="FRM_Principal.Designer.cs">
       <DependentUpon>FRM_Principal.cs</DependentUpon>
     </Compile>
+    <Compile Include="FRM_Reportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_Reportes.Designer.cs">
+      <DependentUpon>FRM_Reportes.cs</DependentUpon>
+    </Compile>
     <Compile Include="FRM_Usuarios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,9 +82,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FRM_Agregar.resx">
-      <DependentUpon>FRM_Agregar.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FRM_Edicion.resx">
       <DependentUpon>FRM_Edicion.cs</DependentUpon>
     </EmbeddedResource>
@@ -96,6 +93,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FRM_Principal.resx">
       <DependentUpon>FRM_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_Reportes.resx">
+      <DependentUpon>FRM_Reportes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FRM_Usuarios.resx">
       <DependentUpon>FRM_Usuarios.cs</DependentUpon>

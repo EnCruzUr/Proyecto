@@ -73,6 +73,7 @@
             this.Controls.Add(this.BRR_Superior);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FRM_Usuarios";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FRM_Usuarios";
             this.BRR_Superior.ResumeLayout(false);
             this.BRR_Superior.PerformLayout();
