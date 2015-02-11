@@ -32,7 +32,9 @@
             this.BRR_Superior = new System.Windows.Forms.ToolStrip();
             this.BTM_Regresar = new System.Windows.Forms.ToolStripButton();
             this.BTN_Salir = new System.Windows.Forms.ToolStripButton();
+            this.DGV_Tabla_Interacciones = new System.Windows.Forms.DataGridView();
             this.BRR_Superior.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_Tabla_Interacciones)).BeginInit();
             this.SuspendLayout();
             // 
             // BRR_Superior
@@ -65,18 +67,28 @@
             this.BTN_Salir.Size = new System.Drawing.Size(33, 22);
             this.BTN_Salir.Text = "Salir";
             // 
+            // DGV_Tabla_Interacciones
+            // 
+            this.DGV_Tabla_Interacciones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGV_Tabla_Interacciones.Location = new System.Drawing.Point(12, 41);
+            this.DGV_Tabla_Interacciones.Name = "DGV_Tabla_Interacciones";
+            this.DGV_Tabla_Interacciones.Size = new System.Drawing.Size(658, 275);
+            this.DGV_Tabla_Interacciones.TabIndex = 3;
+            // 
             // FRM_Interacciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(682, 520);
+            this.ClientSize = new System.Drawing.Size(682, 331);
+            this.Controls.Add(this.DGV_Tabla_Interacciones);
             this.Controls.Add(this.BRR_Superior);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FRM_Interacciones";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FRM_Interacciones";
+            this.Text = "Interacciones";
             this.BRR_Superior.ResumeLayout(false);
             this.BRR_Superior.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_Tabla_Interacciones)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -87,6 +99,7 @@
         private System.Windows.Forms.ToolStrip BRR_Superior;
         private System.Windows.Forms.ToolStripButton BTM_Regresar;
         private System.Windows.Forms.ToolStripButton BTN_Salir;
+        private System.Windows.Forms.DataGridView DGV_Tabla_Interacciones;
 
 
     }

@@ -89,9 +89,9 @@
             this.LBL_Buscarpor = new System.Windows.Forms.ToolStripLabel();
             this.CMB_Busqueda = new System.Windows.Forms.ToolStripComboBox();
             this.TXT_Busqueda = new System.Windows.Forms.ToolStripTextBox();
+            this.BTN_Buscar = new System.Windows.Forms.ToolStripButton();
             this.LBL_Resultados = new System.Windows.Forms.ToolStripLabel();
             this.CMB_Resultados = new System.Windows.Forms.ToolStripComboBox();
-            this.BTN_Buscar = new System.Windows.Forms.ToolStripButton();
             this.BRR_Superior.SuspendLayout();
             this.PAN_Botones.SuspendLayout();
             this.PAN_Ubi2.SuspendLayout();
@@ -649,6 +649,15 @@
             this.TXT_Busqueda.Name = "TXT_Busqueda";
             this.TXT_Busqueda.Size = new System.Drawing.Size(100, 25);
             // 
+            // BTN_Buscar
+            // 
+            this.BTN_Buscar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.BTN_Buscar.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Buscar.Image")));
+            this.BTN_Buscar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.BTN_Buscar.Name = "BTN_Buscar";
+            this.BTN_Buscar.Size = new System.Drawing.Size(46, 22);
+            this.BTN_Buscar.Text = "Buscar";
+            // 
             // LBL_Resultados
             // 
             this.LBL_Resultados.Name = "LBL_Resultados";
@@ -659,15 +668,6 @@
             // 
             this.CMB_Resultados.Name = "CMB_Resultados";
             this.CMB_Resultados.Size = new System.Drawing.Size(121, 25);
-            // 
-            // BTN_Buscar
-            // 
-            this.BTN_Buscar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.BTN_Buscar.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Buscar.Image")));
-            this.BTN_Buscar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.BTN_Buscar.Name = "BTN_Buscar";
-            this.BTN_Buscar.Size = new System.Drawing.Size(46, 22);
-            this.BTN_Buscar.Text = "Buscar";
             // 
             // FRM_Edicion
             // 
@@ -684,7 +684,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FRM_Edicion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FRM_Edicion";
+            this.Text = "Edicion";
             this.BRR_Superior.ResumeLayout(false);
             this.BRR_Superior.PerformLayout();
             this.PAN_Botones.ResumeLayout(false);
