@@ -522,6 +522,7 @@
             // DTI_FecNac
             // 
             this.DTI_FecNac.Location = new System.Drawing.Point(121, 102);
+            this.DTI_FecNac.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
             this.DTI_FecNac.Name = "DTI_FecNac";
             this.DTI_FecNac.Size = new System.Drawing.Size(121, 20);
             this.DTI_FecNac.TabIndex = 23;
